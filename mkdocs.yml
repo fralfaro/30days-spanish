@@ -1,0 +1,128 @@
+# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+# Project information
+site_name: 30 días de Streamlit
+site_url: https://github.com/fralfaro/30days-spanish
+site_author: Francisco Alfaro
+site_description:
+
+# Repository
+repo_name: fralfaro/30days-spanish
+repo_url: https://github.com/fralfaro/30days-spanish
+edit_uri: ''
+
+# Markdown extensions
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - neoteroi.cards
+  - neoteroi.timeline
+  - neoteroi.projects
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - css/neoteroi-mkdocs.css
+
+# Theme
+theme:
+  name: material
+  language: es
+  logo: images/icons/streamlit.png
+  favicon: images/icons/streamlit.png
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: black
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: black
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - navigation.indexes
+  - content.tooltips
+  - navigation.path
+  - content.code.annotate
+  - content.code.copy
+  - content.code.select
+  - navigation.tabs
+  - navigation.footer
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fralfaro
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/fralfaro
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/faam/
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/faamds
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@fralfaro
+    - icon: fontawesome/solid/globe
+      link: https://fralfaro.github.io/portfolio/
+
+# Plugins
+plugins:
+  - mkdocs-jupyter:
+      kernel_name: python3
+  - search
+
+# Extra javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+
+#TOC
+nav:
+    - 🏠 Home:
+        - index.md
+    - 📗 Principiante: 
+      - content/Day1.md
+      - content/Day2.md
+      - content/Day3.md
+      - content/Day4.md
+      - content/Day5.md
+      - content/Day6.md
+      - content/Day7.md
+    - 📘 Intermedio: 
+      - content/Day8.md
+      - content/Day9.md
+      - content/Day10.md
+      - content/Day11.md
+      - content/Day12.md
+      - content/Day13.md
+      - content/Day14.md
+      - content/Day15.md
+      - content/Day16.md
+      - content/Day17.md
+      - content/Day18.md
+      - content/Day19.md
+      - content/Day20.md
+      - content/Day21.md
+      - content/Day22.md
+      - content/Day23.md
+    - 📕 Avanzado: 
+      - content/Day24.md
+      - content/Day25.md
+      - content/Day26.md
+      - content/Day27.md
+      - content/Day28.md
+      - content/Day29.md 
+      - content/Day30.md
